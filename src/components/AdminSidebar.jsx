@@ -46,7 +46,7 @@ export const AdminSidebar = ({ active }) => {
                             <li className={'sideNav-btn mb-3'+' '+activeClass.user}><b>User Profiles</b></li>
                         </Link>
                         <Link to={'/adminProblems'} className="admin-link">
-                            <li className={'sideNav-btn mb-3'+' '+activeClass.problem}><b>Problems</b></li>
+                            <li className={'sideNav-btn mb-3'+' '+activeClass.problem}><b>Promblems</b></li>
                         </Link>
                         <Link to={'/adminComplains'} className="admin-link">
                             <li className={'sideNav-btn mb-3'+' '+activeClass.complain}><b>Complains</b></li>
